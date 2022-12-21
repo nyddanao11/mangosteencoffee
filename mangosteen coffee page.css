@@ -1,0 +1,66 @@
+
+#landing{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.color{
+	color:#6D041B;
+	font-size: 40px;
+}
+
+.color01{
+	color:#05981d;
+}
+.color02{
+	color: #6D041B;
+}
+
+.color03{
+	color: #6D041B;
+}
+.color04{
+	color: #6D041B;
+}
+
+.benefits{
+	display: flex;
+	flex-direction: column;
+}
+
+#landing .buy{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.button{
+  background-color: #05981d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#landing .container{
+	display: flex;
+	justify-content: space-evenly;
+	align-content: space-between;
+}
+img{
+	width: 500px;
+	height: 500px;
+	padding-top: 30px;
+}
+
