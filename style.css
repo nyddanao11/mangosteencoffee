@@ -1,8 +1,7 @@
+
 #landing{
 	display: flex;
-	justify-content: space-between;
-	padding-left: 25px;
-	padding-right: 25px;
+	padding-left: 10px;
 	width: 100%;
 }
 
@@ -29,17 +28,12 @@ ul{
 	color: #6D041B;
 }
 
-.benefits{
+#landing .benefits{
 	display: flex;
 	flex-direction: column;
-}
-
-#landing .buy{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 
 }
+
 .button{
   background-color: #05981d;
   border: none;
@@ -56,12 +50,24 @@ ul{
 #landing .container{
 	display: flex;
 	justify-content: space-evenly;
-	align-content: space-between;
 	width: 100%;
 }
+
 img{
-	width: 500px;
-	height: 500px;
+	width: 450px;
+	height: 600px;
 	padding-top: 30px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+#footer{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 60%;
+	padding-left: 50px;
 }
 
