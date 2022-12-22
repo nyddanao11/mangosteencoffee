@@ -34,6 +34,11 @@ ul{
 
 }
 
+#landing .benefits .buy{
+	justify-content: center;
+	padding-left: 30;
+}
+
 .button{
   background-color: #05981d;
   border: none;
@@ -47,27 +52,26 @@ ul{
   cursor: pointer;
 }
 
-#landing .container{
-	display: flex;
+#landing .cont .container{
+	flex-direction: column;
 	justify-content: space-evenly;
 	width: 100%;
 }
 
+#landing .cont .container .contact{
+	justify-content: center;
+	padding-left: 30px;
+
+
+}
+
 img{
 	width: 450px;
-	height: 600px;
+	height: 450px;
 	padding-top: 30px;
 	padding-right: 10px;
 	padding-left: 10px;
 	padding-bottom: 10px;
 }
 
-#footer{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-between;
-	width: 60%;
-	padding-left: 50px;
-}
 
