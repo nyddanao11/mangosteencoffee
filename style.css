@@ -29,13 +29,11 @@ ul{
 }
 
 #landing .benefits{
-	display: flex;
 	flex-direction: column;
 
 }
 
 #landing .benefits .buy{
-	flex-direction: row;
 	justify-content: center;
 	padding-left: 40px;
 }
@@ -43,8 +41,7 @@ ul{
 .button:hover{
 			color:#818E81;
 			background-color: #79D479;
-		}
-
+}
 .button{
   background-color: #05981d;
   border: none;
@@ -62,12 +59,17 @@ ul{
 	flex-direction: column;
 	justify-content: space-evenly;
 	width: 100%;
+	position: relative;
 }
 
 #landing .cont .contact{
 	justify-content: center;
-	padding-left: 150px;
-
+	position: absolute;
+  left:50%;
+  bottom: 0;
+  padding:5px;
+  border: 1px solid;
+  background-color: #F3B906;
 
 }
 
