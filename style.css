@@ -62,7 +62,7 @@ ul{
 	position: relative;
 }
 
-#landing .cont .contact{
+#landing .cont .container .contact{
 	justify-content: center;
 	position: absolute;
   left:50%;
