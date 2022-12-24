@@ -63,12 +63,13 @@ ul{
 }
 
 #landing .contact{
+	text-align: center;
    flex-direction: wrap;
 	justify-content: center;
 	position: absolute;
   left:50%;
   padding:5px;
-  border: 1px solid;
+  border: none;
   background-color: #F3B906;
 
 }
