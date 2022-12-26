@@ -1,8 +1,142 @@
+body{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #E4F0FD;
+	flex-direction: column;
+	
+}
+
+.section{
+	padding: 10px;
+	height: 100%;
+	margin-left: 180px;
+	align-items: center;
+	justify-content: center;
+	
+}
+.slider{
+	width:600px;
+	height: 500px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.slide{
+	width:500% ;
+	height:500px ;
+	display: flex;
+
+
+}
+.slide input{
+	display: none;
+}
+
+.st{
+	width: 20%;
+	transition: 2s;
+}
+
+.st img{
+	width:600px;
+	height: 500px;
+}
+.nav-m{
+	position: absolute;
+	width: 600px;
+	margin-top: -40px;
+	justify-content: center;
+	display: flex;
+}
+.m-btn{
+	border: 2px solid #F3B906;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+.m-btn:not(:last-child){
+	margin-right: 30px;
+}
+.m-btn:hover{
+	background-color:#090A09 ;
+}
+#radio1:checked~.first{
+	margin-left: 0%;
+}
+#radio2:checked~.first{
+	margin-left: -20%;
+}
+#radio3:checked~.first{
+	margin-left: -40%;
+}
+#radio4:checked~.first{
+	margin-left: -60%;
+}
+.nav-auto{
+	position: absolute;
+	width: 600px;
+	margin-top: 460px;
+	display: flex;
+	justify-content: center;
+}
+.nav-auto div{
+	border: 2px solid #F3B906;
+	padding: 5px;
+	border-radius: 10px; 
+	transition: :1s;
+}
+.nav-auto div:not(:last-child){
+	margin-right: 30px;
+	justify-content: center;
+}
+#radio1:checked~.nav-auto .a-b1{
+	background-color: #090A09;
+}
+#radio2:checked~.nav-auto .a-b2{
+	background-color: #090A09;
+}
+#radio3:checked~.nav-auto .a-b3{
+	background-color: #090A09;
+}
+#radio4:checked~.nav-auto .a-b4{
+	background-color: #090A09;
+}
+
+
 
 #landing{
 	display: flex;
 	padding-left: 10px;
 	width: 100%;
+	flex-direction: column;
+}
+
+#landing .buy{
+/*	display: flex;*/
+	/*align-items: center;
+	justify-content: center;*/
+/*	margin-top: 500px;*/
+	padding:20px;
+	margin-left:180px;
+
+	
+	}
+
+.button{
+  background-color: #05981d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 ul{
@@ -30,57 +164,26 @@ ul{
 
 #landing .benefits{
 	flex-direction: column;
+	margin-left: 100px;
 
 }
 
-#landing .benefits .buy{
-	justify-content: center;
-	padding-left: 40px;
-}
+
 
 .button:hover{
 			color:#818E81;
 			background-color: #79D479;
 }
-.button{
-  background-color: #05981d;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
 
-#landing .cont .container{
-	flex-direction: column;
-	justify-content: space-evenly;
-	width: 100%;
-	position: relative;
-}
 
 #landing .contact{
-	text-align: center;
-   flex-direction: wrap;
+   text-align: center;
 	justify-content: center;
-	position: absolute;
-  left:50%;
-  padding:5px;
+	padding: 10px;
+	margin-top:10px;
+	margin-left: 140px;
+	margin-right:200px;
+	margin-bottom: 350px;
   border: none;
   background-color: #F3B906;
-
 }
-
-img{
-	width: 450px;
-	height: 450px;
-	padding-top: 30px;
-	padding-right: 10px;
-	padding-left: 10px;
-	padding-bottom: 10px;
-}
-
-
