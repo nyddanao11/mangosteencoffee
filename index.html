@@ -3,76 +3,58 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title> mangosteen</title>	
+	<title>newslider1</title>
 	<link rel="stylesheet" type="text/css" href="https://nyddanao11.github.io/mangosteencoffee/style.css">
-
-	
 </head>
 
 <body>
 
-	<div class="navbar">
-		<nav class="bar">
-			<h2 class="logo">NYD <span>DANAO 11</span></h2>
-			<ul>
-				<li><a href="https://nyddanao11.github.io">Home</a></li>
-				<li><a href="https://nyddanao11.github.io/aboutus.html">About Us</a></li>
-				<li><a href="https://nyddanao11.github.io/contactus.html">Contact Us</a></li>
-				<li><a href="#">Sign up</a></li>
-			
-			</ul>
-			<button type="button" onclick="window.location.href='https://drive.google.com/file/d/1a4_qMyg4f7lipI2hWL55RH-9ur_odU7n/view';" > Download</button>
-		</nav>
-	</div>
+<section class="bar">
 
-	<section class="section">
-		<div class="slider">
-			<div class="slide">
-				<input type="radio" name="radio-btn" id="radio1">
-				<input type="radio" name="radio-btn" id="radio2">
-				<input type="radio" name="radio-btn" id="radio3">
-				<input type="radio" name="radio-btn" id="radio4">
+<header class="header">
+
+  <a href="" class="logo">NYD <span>DANAO11</span></a>
+
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  
+  <ul class="menu">
+    <li><a href="https://nyddanao11.github.io">Home</a></li>
+    <li><a href="https://nyddanao11.github.io/mangosteencoffee/aboutus.html">AboutUs</a></li>
+    <li><a href="https://nyddanao11.github.io/mangosteencoffee/contactus.html">ContactUs</a></li>
+    <li><a href="https://nyddanao11.github.io/mangosteencoffee/Register02.html">SignUp</a></li>
+    <li><a href="https://drive.google.com/file/d/1a4_qMyg4f7lipI2hWL55RH-9ur_odU7n/view">Download</a></li>
+  </ul>
+
+</header>
+
+</section>
+
+
+	<section class="container">
+		<div class="slider-wrapper">
+			<div class="slider">
+				<img id="slide-1" src="https://nyddanao11.github.io/mangosteencoffee/mangosteen.png">
+				<img id="slide-2" src="https://nyddanao11.github.io/mangosteencoffee/mangosteen02.png">
+				<img id="slide-3" src="https://nyddanao11.github.io/mangosteencoffee/mangosteen03.png">
+				<img id="slide-4" src="https://nyddanao11.github.io/mangosteencoffee/mangosteen04.jpg">
 				
-
-				<div class="st first">
-					<img src="https://nyddanao11.github.io/mangosteencoffee/mangosteen.png">
-				</div>
-
-				<div class="st">
-					<img src="https://nyddanao11.github.io/mangosteencoffee/mangosteen02.png">
-				</div>
-
-				<div class="st">
-					<img src="https://nyddanao11.github.io/mangosteencoffee/mangosteen03.png">
-				</div>
-
-				<div class="st">
-					<img src="https://nyddanao11.github.io/mangosteencoffee/mangosteen04.jpg">
-				</div>
-				
-				<div class="nav-auto">
-					<div class="a-b1"></div>
-					<div class="a-b2"></div>
-					<div class="a-b3"></div>
-					<div class="a-b4"></div>
-				</div>
-
 			</div>
-
-				<div class="nav-m ">
-					<label for="radio1" class="m-btn"></label>
-					<label for="radio2" class="m-btn"></label>
-					<label for="radio3" class="m-btn"></label>
-					<label for="radio4" class="m-btn"></label>
-					
-				</div>
-		
-
+			<div class="slider-nav">
+				<a href="#slide-1"></a>
+				<a href="#slide-2"></a>
+				<a href="#slide-3"></a>
+				<a href="#slide-4"></a>
+				
+			</div>
 		</div>
+		
+	</section>
 
-			
 
-	<div id="landing">
+
+<div id="landing">
 
 		   <div class="buy">
 				<button class="button" onclick="window.location.href='https://shopee.ph/Mangosteen-Coffee-drink-mix-with-Moringa-i.784647343.21009335924';">BUY php 198</button>
@@ -119,13 +101,8 @@
 
 
 
-	      <div class="contact">
-			   <h4>Contact: 09497042268</h4>
-	 	       <h4>Whatsapp: 09497042268</h4>
-	 	       <address>Maslog Danao City, Cebu, Philippines</address>
-	     </div> 
 
-  </div>  
+
 
   <div class=" product">
   		<div class="content">
@@ -158,23 +135,13 @@
   		
   		</div>
   	
-  </div>
+    </div>
 
-</section>
 
-	<script type="text/javascript">
-		var counter=1;
-		SetInterval(function(){
-			document.getElementById('radio' + counter).checked=true;
-			counter++;
-			if(counter > 4){
-				counter = 1;
-			}
-		},5000);
-
-	</script>
-
+  </div> 
 
 </body>
 
 </html>
+
+
