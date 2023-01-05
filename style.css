@@ -76,7 +76,7 @@ nav ul li a{
   margin-inline-end: 0.75em;
 }
 nav ul li a:hover{
-  color:red;
+  color:#05981d;
   transition: 0.3s;
 }
 
