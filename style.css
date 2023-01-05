@@ -11,7 +11,7 @@ body{
   font-size: 25px;
 }
 .log{
-  color:red;
+  color:#05981d;
 }
 
 .primary-header {
@@ -308,16 +308,16 @@ nav ul li a:hover{
   position: relative;
   width:150px;
   height: 150px;
-  border-radius: 2%;
+  border-radius: 5%;
   background: #FFF;
   padding: 3px;
 }
 .card-image .card-img{
   height:100%;
   width: 100%;
-  object-fit: cover;
-  border-radius: 2%;
-  border: 4px solid #4070F4;
+  object-fit: fill;
+  border-radius: 5%;
+/*  border: 4px solid #4070F4;*/
 
 }
 .name{
