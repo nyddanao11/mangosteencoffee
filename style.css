@@ -5,14 +5,14 @@ body{
   overflow-x: hidden;
 }
 
-.logo{
+/*.logo{
   margin: 2rem;
   color:black;
   font-size: 25px;
 }
 .log{
   color:#05981d;
-}
+}*/
 
 .primary-header {
 /*  display: flex;*/
@@ -20,6 +20,15 @@ body{
   justify-content: space-between;
 /*  background: black;*/
   
+}
+
+
+.primary-header img{
+  margin: 1.2rem;
+  border-radius: 1.5rem;
+/*  border: 1px solid #05981d;*/
+  width:50px;
+  height: 50x;
 }
 
 
