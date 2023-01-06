@@ -278,8 +278,8 @@ nav ul li a:hover{
 }
 
 /* Twitter */
-.fa-twitter {
-  background: #55ACEE;
+.fa-instagram {
+ background:linear-gradient(to right,red,yellow);
   color: white;
 }
 .fa-youtube {
