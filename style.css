@@ -22,6 +22,48 @@ body{
   
 }
 
+
+.downloadbut{
+  font-weight: bold;
+  font-size: 15px;
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+}
+
+.downloadbut:hover{
+  background-color: #08ed2d;
+  transition: 0.3s;
+
+}
+
+
+.downloadlink{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+}
+
+.downloadlink a{
+   color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+}
+
+.downloadlink a:hover{
+  background-color: #ddd;
+
+}
+.download:hover .downloadlink{
+  display: block;
+
+}
+
 /*
 .primary-header img{
   margin: 1.2rem;
