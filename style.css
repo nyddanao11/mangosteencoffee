@@ -40,7 +40,7 @@ body{
 }
 
 .downloadbut:hover{
-  background-color: #08ed2d;
+ color:#05981d;
   transition: 0.3s;
 
 }
