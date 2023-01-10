@@ -34,6 +34,7 @@ body{
 .downloadbut{
   font-weight: bold;
   font-size: 15px;
+  font-family: Monaco;
   background-color: transparent;
   border: none;
   text-decoration: none;
