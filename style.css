@@ -191,7 +191,7 @@ nav ul li a:hover{
 .slider img{
   flex: 1 0 100%;
   scroll-snap-align: start;
-  object-fit:100%;
+  object-fit:cover;
 }
 .slider-nav{
   display: flex;
@@ -440,7 +440,7 @@ nav ul li a:hover{
 .card-image .card-img{
   height:100%;
   width: 100%;
-  object-fit: fill;
+  object-fit: cover;
   border-radius: 5%;
 /*  border: 4px solid #4070F4;*/
 
