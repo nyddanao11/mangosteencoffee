@@ -171,48 +171,111 @@ nav ul li a:hover{
 
 }
 
-.container{
-  padding:2rem;
+.container {
+    padding: 2rem;
 }
-.slider-wrapper{
-  position: relative;
-  max-width: 48rem;
-  margin: 0 auto;
+.slider-wrapper {
+    /*width: 600px;
+    height:450px;*/
+    max-width: 48rem;
+    position: relative;
+    margin: 0 auto;
+
 }
-.slider{
-  display: flex;
+@media only screen and (max-width: 450px) {
+    .slider-wrapper {
+        width: 100%;
+        height: 100%;
+
+    }
+  }
+
+.slider {
+  /*width: 100%;
+  height: 100%;*/
   aspect-ratio: 3/2;
   overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
-  border-radius: 0.5rem;
+  border-radius: 10px;
+    display: flex;
+    overflow-x: hidden;
+
 }
-.slider img{
-  flex: 1 0 100%;
-  scroll-snap-align: start;
-  object-fit:cover;
+
+.slider img {
+    width: 100%;
+    object-fit: cover;
+    display: none;
 }
-.slider-nav{
-  display: flex;
-  column-gap: 1rem;
+
+.slider img.active {
+    display: block;
+}
+
+.slider-nav {
+    display: flex;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+    margin-right: 0.5rem;
+}
+
+.slider-nav a.active {
+    background-color: #555;
+}
+
+.slider-nav a:hover {
+    opacity: 1;
+}
+
+.prev-button, .next-button{
   position: absolute;
-  bottom: 1.25rem;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 36px;
+  font-weight: bold;
+  padding: 12px 24px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+  z-index:10;
 }
-.slider-nav a{
-  width: 0.5rem;
-  height: 0.5rem;
-  border-radius: 50%;
-  background-color: #fff;
-  opacity: 0.75;
-  transition: opacity ease 250ms;
+
+.prev-button {
+    color:#5b5cc7;
 }
-.slider-nav a:hover{
-  opacity: 1;
+
+.next-button {
+    color:#5b5cc7;
 }
+
+.prev-button{
+  left: 0;
+}
+
+.next-button{
+  right: 0;
+}
+
+.slide.active{
+  left: 0;
+}
+
+.slide:not(.active){
+  left: 100%;
+}
+
 
 
 
