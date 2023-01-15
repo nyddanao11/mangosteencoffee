@@ -593,4 +593,8 @@ color: white;
 
   .ebook .ebook-1 img{
     border-radius: 5px;
+    transition: transform 0.5s;
+  }
+  .ebook .ebook-1 img:hover{
+    transform: scale(1.2);
   }
