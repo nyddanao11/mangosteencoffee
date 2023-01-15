@@ -570,4 +570,27 @@ nav ul li a:hover{
     display: none;
   }
 }
-d
+
+
+.ebook{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+
+}
+
+.ebook .ebook-1{
+  padding: 10px;
+  background-color: green;
+border: 1px solid;
+border-radius: 5px;
+cursor: pointer;
+color: white;
+
+  }
+
+  .ebook .ebook-1 img{
+    border-radius: 5px;
+  }
