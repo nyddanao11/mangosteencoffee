@@ -770,31 +770,3 @@ z-index: 1200;
     display: none;
   }
 }
-
-
-.ebook{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
-
-}
-
-.ebook .ebook-1{
-  padding: 10px;
-  background-color: green;
-border: 1px solid;
-border-radius: 5px;
-cursor: pointer;
-color: white;
-
-  }
-
-  .ebook .ebook-1 img{
-    border-radius: 5px;
-    transition: transform 0.5s;
-  }
-  .ebook .ebook-1 img:hover{
-    transform: scale(1.2);
-  }
