@@ -13,48 +13,84 @@
 
 <header class="primary-header flex">
 			<div >
-					<a href="https://shope.ee/5pZmnVEM3L"><img src="https://nyddanao11.github.io/mangosteencoffee/logo.png"></a>
-			<!-- <h2 class="logo">Yeilva <span class="log">STORE</span></h2> -->
+				<a href="https://shope.ee/5pZmnVEM3L"><img src="https://nyddanao11.github.io/airfryer/logo.png"></a>
+			
 		    </div>
-
 	
-		<button id="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false" ><i style="font-size:24px" class="fa">&#xf0c9;</i></button>
+		<button id="mobile-nav-toggle" aria-controls="primary-navigation" aria-label="Toggle Navigation" >
+			<i id="hamburger" style="font-size:24px" class="fa fa-navicon"></i>
+		<i id="close" style="font-size:24px" class="fa fa-close" aria-hidden="true"></i>
+	</button>
 		
 		<nav >
 			
-			<ul id="primary-navigation" data-visible ="false" class="primary-navigation flex">
+			<ul id="primary-navigation"  class="primary-navigation flex">
 
-					<li class="active"> <a href="https://nyddanao11.github.io/mangosteencoffee"> <i style="font-size:24px" class="fa">&#xf015;</i></a> </li>
+				<li > <a href="https://nyddanao11.github.io/airfryer/"> <i style="font-size:24px" class="fa">&#xf015;</i></a> </li>
 
-					<li> <a href="https://nyddanao11.github.io/mangosteencoffee/aboutus.html">About Us</a> </li>
+					<li> <a href="C:\Users\admin\Desktop\mangosteen landing page\shoppee air fryer\aboutus.html">About Us</a> </li>
 
-					<li> <a href="https://nyddanao11.github.io/mangosteencoffee/contactus.html">Contact Us</a> </li>
+					<li> <a href="C:\Users\admin\Desktop\mangosteen landing page\shoppee air fryer\contactus.html">Contact Us</a> </li>
 
 					<li> <a href="https://forms.gle/v96RxAqMzT6Pt9MB9">Sign Up</a> </li>
 
-					<div class="download">
 
-     		  <button class="downloadbut">All Product <i class="fa fa-caret-down"></i></button>
-         		 <div class="downloadlink">
-          		   <a href="#">UPS products</a>
-           			  <a href="#">Supplies</a>
-            	</div>
-   	 			 </div>
+			<li ><button onclick="showOuterDropdown()" class="dropbtn" class="hover-me">All Product <i class="fa fa-caret-down"></i> </button>
+					
+					<div class="myDropdown" id="outerDropdown">
+    				
+    						<ul	>	 
+       					
+       				<li >  <button onclick="showInnerDropdown1()" class="dropbtn" class="hover-me1">UPS Product <i class="fa fa-caret-down"></i> 
+       				</button>
+       								<div class="myDropdown" id="innerDropdown1" class="dropdown-content">
+         									 <ul >
+						          		   	<li><a href="https://shope.ee/5fGMc7wAMb">Mangosteen Coffee</a></li>
+						          		 	  <li><a href="https://shope.ee/8zWoaKTuiY">Buah Merah</a></li>
+						          		   	<li><a href="https://shope.ee/9K9ez2mYzp">Arctic C</a></li>
+						          		   	<li><a href="https://shope.ee/3VBs2OkPNw">Absorbent C</a></li>
+						          		   	<li><a href="https://shope.ee/frgfHkJc1">Turmeric</a></li>
+						          		   	<li><a href="https://shope.ee/7f1R0Gcq0W">Acai Berry</a></li>
+						          		   	<li><a href="https://shope.ee/6zlkDCJfWK">Mangosteen Choco</a></li>
+						          		   	<li><a href="https://shope.ee/4phFdKl5W6">Toothpaste</a></li>
+						          		   	<li><a href="https://shope.ee/1AnxGgnkrR">Garcinia Cambogia</a></li>
+						          		   	<li><a href="https://shope.ee/6KW3QFoT6u">Barley Grass juice</a></li>
+						          		   	<li><a href="https://shope.ee/8pDOP2IR6n">Quantumn bracelet</a></li>
+		          		        		   
+		          		   		</ul>
+		          		 </div>
+		          	 </li>
+		       			
+          			
+									<li ><button  onclick="showInnerDropdown2()" class="dropbtn" class="hover-me2">Supplies <i class="fa fa-caret-down"></i></button>
+           						<div class="myDropdown" id="innerDropdown2" class="dropdown-content">
+           			  				 <ul >
+				           			  	  <li><a href="https://shope.ee/7f1QD91o9Y">Air fryer</a></li>
+						           			  <li><a href="https://shope.ee/LEtcBfvRn">Nike Shoes</a></li>
+						           			  <li><a href="https://shope.ee/89xkzcWxM8">Portable Electric Iron</a></li>
+						           			  <li><a href="https://shope.ee/4ARcEavhhp">Vacuum Cleaner</a></li>
+		           						</ul>
+											</div>
+									</li>
+							</ul>
+        	</div>
+	
+   		</li>	 
+   	 		
+		<li><button onclick="showOuterDropdown1()" class="dropbtn"> Download <i class="fa fa-caret-down"></i></button>
+			 <div class="myDropdown" id="outerDropdown1">
 
-				 <div class="download">
-
-     		  <button class="downloadbut"> Download <i class="fa fa-caret-down"></i></button>
-         		 <div class="downloadlink">
-          		   <a href="https://drive.google.com/file/d/1a4_qMyg4f7lipI2hWL55RH-9ur_odU7n/view">E-Catalogue</a>
-           			  <a href="#">Flyers</a>
-            		 <a href="https://docs.google.com/document/d/1-5zC7StBNT5gKorWsp6ZwzRaBgrDeCFt/edit?usp=sharing&ouid=105641947247357200570&rtpof=true&sd=true">Registration Form</a>
-           </div>
+     		  	 <ul class="dropdown-content">
+          		   <li><a href="https://drive.google.com/file/d/1a4_qMyg4f7lipI2hWL55RH-9ur_odU7n/view">E-Catalogue</a></li>
+           			  <li><a href="#">Flyers</a></li>
+            		 <li><a href="https://docs.google.com/document/d/1-5zC7StBNT5gKorWsp6ZwzRaBgrDeCFt/edit?usp=sharing&ouid=105641947247357200570&rtpof=true&sd=true">Registration Form</a></li>
+           </ul>
    	  </div>
+   	</li>
+		
+	</ul>
 			
-			
-			</ul>
-			
-		</nav>
+</nav>
 
 </header>
 
@@ -130,6 +166,77 @@
 	  </div>
 
   </div> 
+
+
+<div class="product-cards">
+<div class="gallery">
+
+			<div class="content">
+				<img src="C:\Users\admin\Desktop\mangosteen landing page\shoppee air fryer\Picture1.png">
+					<h3>Air Fryer<h3>
+						<p>Large capacity, multi-function: French fries, chicken wings, steak, eggs, etc.
+							Heat up quickly and enjoy delicious food</p>
+					<h6>P1,149-P1,999</h6>
+					<ul>
+						<li><i class="fa fa-star checked"></i></li>
+						<li><i class="fa fa-star checked"></i></li>
+						<li><i class="fa fa-star checked"></i></li>
+						<li><i class="fa fa-star checked"></i></li>
+						<li><i class="fa fa-star checked"></i></li>
+					</ul>
+					<button class="buy-1" onclick="window.location.href='https://shope.ee/7f1QD91o9Y';">Buy Now</button>
+			</div>
+
+			<div class="content">
+				<img src="C:\Users\admin\Desktop\mangosteen landing page\shoppee air fryer\sa04.jpg">
+					<h3>Portable Mini Electric Iron<h3>
+						<p>Travel Helper Portable Mini Electric Iron</p>
+					<h6>P189-279</h6>
+					<ul>
+						<li><i class="fa fa-star checked"></i></li>
+						<li><i class="fa fa-star checked"></i></li>
+						<li><i class="fa fa-star checked"></i></li>
+						<li><i class="fa fa-star checked"></i></li>
+						<li><i class="fa fa-star checked"></i></li>
+					</ul>
+					<button class="buy-2" onclick="window.location.href='https://shope.ee/89xkzcWxM8';">Buy Now</button>
+			</div>
+
+			<div class="content">
+				<img src="C:\Users\admin\Desktop\mangosteen landing page\shoppee air fryer\nike03.png">
+					<h3>Nike Shoes<h3>
+						<p>Men Basketball Shoes Sneaker High Cut Air SHOES FOR WOMEN and men shoes </p>
+					<h6>P439-P449</h6>
+					<ul>
+						<li><i class="fa fa-star checked"></i></li>
+						<li><i class="fa fa-star checked"></i></li>
+						<li><i class="fa fa-star checked"></i></li>
+						<li><i class="fa fa-star checked"></i></li>
+						<li><i class="fa fa-star checked"></i></li>
+					</ul>
+					<button class="buy-3" onclick="window.location.href='https://shope.ee/LEtcBfvRn';">Buy Now</button>
+			</div>
+
+			<div class="content">
+				<img src="C:\Users\admin\Desktop\mangosteen landing page\shoppee air fryer\sa05.jpg">
+					<h3> Vacuum Cleaner<h3>
+						<p>Xiaomi Mite Remover Bed Dust Vacuum Cleaner Mite Eliminator 12Ka Big Suction UV-C Sterilization </p>
+					<h6>P599-P1799</h6>
+					<ul>
+						<li><i class="fa fa-star checked"></i></li>
+						<li><i class="fa fa-star checked"></i></li>
+						<li><i class="fa fa-star checked"></i></li>
+						<li><i class="fa fa-star checked"></i></li>
+						<li><i class="fa fa-star checked"></i></li>
+					</ul>
+					<button class="buy-4" onclick="window.location.href='https://shope.ee/4ARcEavhhp';">Buy Now</button>
+			</div>
+
+	</div>
+
+</div>
+
+  
 
  <div id="apklink">
 			 <a class="applink" href="https://nyddanao11.github.io/mangosteencoffee/store.apk"> Download APK
@@ -357,6 +464,7 @@
 	
 
 </body>
+<script type="text/javascript" src="https://nyddanao11.github.io/mangosteencoffee/airfryer3.js"></script>
 <script type="text/javascript" src="swipe03.js"></script>
 <script type="text/javascript" src="switch.js"></script>
 <script type="text/javascript" src="https://nyddanao11.github.io/mangosteencoffee/swiper-bundle.min.js"></script>
